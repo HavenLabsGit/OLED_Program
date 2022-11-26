@@ -1,0 +1,98 @@
+[
+  {
+    "arguments": [
+      "/opt/microchip/xc8/v2.40/bin/xc8-cc",
+      "-mcpu=16F18877",
+      "-c",
+      "-O0",
+      "-xassembler-with-cpp",
+      "-v",
+      "-Wa,-a",
+      "-DXPRJ_default=default",
+      "-Wl,--data-init",
+      "-std=c99",
+      "-gdwarf-3",
+      "-I/opt/microchip/xc8/v2.40/pic/include/c99",
+      "-I/opt/microchip/xc8/v2.40/pic/include/proc",
+      "-I/opt/microchip/xc8/v2.40/pic/include",
+      "-o",
+      "build/default/production/main.p1",
+      "main.c"
+    ],
+    "directory": "/home/ryan/Nextcloud/Programming/OLED.X",
+    "file": "/home/ryan/Nextcloud/Programming/OLED.X/main.c",
+    "output": "/home/ryan/Nextcloud/Programming/OLED.X/build/default/production/main.p1"
+  },
+  {
+    "arguments": [
+      "/opt/microchip/xc8/v2.40/bin/xc8-cc",
+      "-mcpu=16F18877",
+      "-c",
+      "-O0",
+      "-xassembler-with-cpp",
+      "-v",
+      "-Wa,-a",
+      "-DXPRJ_default=default",
+      "-Wl,--data-init",
+      "-std=c99",
+      "-gdwarf-3",
+      "-I/opt/microchip/xc8/v2.40/pic/include/c99",
+      "-I/opt/microchip/xc8/v2.40/pic/include/proc",
+      "-I/opt/microchip/xc8/v2.40/pic/include",
+      "-o",
+      "build/default/production/_ext/173055726/i2c_drivers.p1",
+      "../PIC16F18877/libs/i2c_drivers.c"
+    ],
+    "directory": "/home/ryan/Nextcloud/Programming/OLED.X",
+    "file": "/home/ryan/Nextcloud/Programming/PIC16F18877/libs/i2c_drivers.c",
+    "output": "/home/ryan/Nextcloud/Programming/OLED.X/build/default/production/_ext/173055726/i2c_drivers.p1"
+  },
+  {
+    "arguments": [
+      "/opt/microchip/xc8/v2.40/bin/xc8-cc",
+      "-mcpu=16F18877",
+      "-c",
+      "-O0",
+      "-xassembler-with-cpp",
+      "-v",
+      "-Wa,-a",
+      "-DXPRJ_default=default",
+      "-Wl,--data-init",
+      "-std=c99",
+      "-gdwarf-3",
+      "-I/opt/microchip/xc8/v2.40/pic/include/c99",
+      "-I/opt/microchip/xc8/v2.40/pic/include/proc",
+      "-I/opt/microchip/xc8/v2.40/pic/include",
+      "-o",
+      "build/default/production/_ext/459804931/SSD1306_drivers.p1",
+      "../PIC16F18877/in_progress/SSD1306_drivers.c"
+    ],
+    "directory": "/home/ryan/Nextcloud/Programming/OLED.X",
+    "file": "/home/ryan/Nextcloud/Programming/PIC16F18877/in_progress/SSD1306_drivers.c",
+    "output": "/home/ryan/Nextcloud/Programming/OLED.X/build/default/production/_ext/459804931/SSD1306_drivers.p1"
+  },
+  {
+    "arguments": [
+      "/opt/microchip/xc8/v2.40/bin/xc8-cc",
+      "-mcpu=16F18877",
+      "-c",
+      "-O0",
+      "-xassembler-with-cpp",
+      "-v",
+      "-Wa,-a",
+      "-DXPRJ_default=default",
+      "-Wl,--data-init",
+      "-std=c99",
+      "-gdwarf-3",
+      "-I/opt/microchip/xc8/v2.40/pic/include/c99",
+      "-I/opt/microchip/xc8/v2.40/pic/include/proc",
+      "-I/opt/microchip/xc8/v2.40/pic/include",
+      "-o",
+      "build/default/production/_ext/459804931/pin_manager.p1",
+      "../PIC16F18877/in_progress/pin_manager.c"
+    ],
+    "directory": "/home/ryan/Nextcloud/Programming/OLED.X",
+    "file": "/home/ryan/Nextcloud/Programming/PIC16F18877/in_progress/pin_manager.c",
+    "output": "/home/ryan/Nextcloud/Programming/OLED.X/build/default/production/_ext/459804931/pin_manager.p1"
+  }
+]
